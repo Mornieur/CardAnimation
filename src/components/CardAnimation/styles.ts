@@ -18,8 +18,8 @@ export const Container = styled.div`
     height: 10rem;
     align-items: center;
     margin: 0 auto;
-    background-image: linear-gradient(70deg, RoyalBlue, DarkTurquoise);
-    box-shadow: 10px 15px 15px 6px #3891b4;
+    background-image: linear-gradient(70deg, #020024 , #696868);
+    box-shadow: 10px 15px 15px 6px #020024;
     border-radius: 50%;
     font-size: 15vh;
 
