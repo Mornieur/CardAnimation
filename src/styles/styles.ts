@@ -5,7 +5,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background-color: var(--white);
+  background-color: var(--darkRed-color);
 
   width: 100vw;
   width: 100%;
