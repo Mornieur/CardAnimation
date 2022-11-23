@@ -14,11 +14,10 @@ export const Container = styled.div`
 
 
   .card h2 {
-    font-size: 5vh;
+   color: #ffbcbc
   }
 
   .card p {
-    font-size: 3vh;
-    /* color: var(--yellow-600); */
+    
   }
 `;
