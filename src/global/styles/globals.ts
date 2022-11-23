@@ -80,8 +80,7 @@ h2 {
   --blue-dark: #2a4999;
 
   --blueTwo-light: #b3dcff;
-
-  --vereda-blue: #1E439B;
+  --darkRed-color: #980a0a;
 
   
 
