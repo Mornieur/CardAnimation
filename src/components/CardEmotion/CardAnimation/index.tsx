@@ -1,8 +1,17 @@
-import { motion, Variants } from 'framer-motion';
+import { motion, useScroll, useSpring, Variants } from 'framer-motion';
+import Image from 'next/image';
 import {PhotoComp} from "../../PhotoComp"
+import pochita from "../../../../public/assets/Gifs/pochita.csm-two.gif"
 import * as S from "./styles"
 
-export const CardAnimation = ({ image, h2, p, id  }: any) => {
+export const CardAnimation = ({ gif, image, h2, p, id  }: any) => {
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   const imageAnimate = {
     offscreen: { x: -100,  opacity: 0 },
@@ -14,15 +23,6 @@ export const CardAnimation = ({ image, h2, p, id  }: any) => {
     },
   };
 
-  // const subImageAnimation = {
-  //   offscreen: { x: -70, opacity: 0 },
-  //   onscreen: {
-  //     x: 0,
-  //     opacity: 1,
-  //     rotate: [0, 10, 0],
-  //     transition: { type: 'spring', bounce: 0.4, duration: 1 },
-  //   },
-  // }
   
   const textAnimate = {
     offscreen: { y: 100, opacity: 0 },
@@ -34,6 +34,21 @@ export const CardAnimation = ({ image, h2, p, id  }: any) => {
   };
   return (
     <S.Container>
+      <S.ProgressBar>
+         
+        
+       
+        <motion.div className="progress-bar" style={{ scaleX }} >
+          <div className='pochita'>
+        <PhotoComp url={gif} text="" />
+        </div>
+        </motion.div>
+        
+       
+      
+       
+      </S.ProgressBar>
+       
 <motion.div
       className="card"
       id={id}
@@ -43,7 +58,7 @@ export const CardAnimation = ({ image, h2, p, id  }: any) => {
       transition={{ staggerChildren: 0.5 }}
     >
       
-      <motion.div className="image-container" variants={imageAnimate}>
+      <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className="image-container" variants={imageAnimate}>
         
       <PhotoComp url={image} text=""/>     
       </motion.div>
