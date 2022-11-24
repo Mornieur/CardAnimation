@@ -6,10 +6,15 @@ export const Container = styled.div`
   .card {
     height: 400px;
     width: 700px;
+    /* width: 100%; */
     border-radius: 13px;
     box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     background-color: #7a7a7a;
+
+    @media(max-width: 400px) {
+      width: 280px;
+    }
   }
 
   .image-container {
@@ -48,8 +53,7 @@ export const Container = styled.div`
   height: 10px;
   background: black;
   transform-origin: 0%;
-  height: 1.8rem;
-  margin-top: 0.7rem;
+
 }
 
 `
@@ -57,12 +61,21 @@ export const Container = styled.div`
 export const ProgressBar = styled.div`
 position: relative;
 
-.pochita {
 
-  width: 3rem;
-  height: 3rem;
+
+.pochitaResponsive {
   position: absolute;
-  right: -3rem;
-  top: -1rem;
+  width: 5rem;
+  height: 5rem;
+  right: -5.1rem;
+  @media(max-width: 400px) {
+      width: 2.2rem;
+      
+      height: 2.2rem;
+      right: -2.2rem;
+      right: -2.2rem;
+      
+      
+    }
 }
 `
