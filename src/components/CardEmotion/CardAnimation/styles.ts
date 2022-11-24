@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
+
   .card {
     height: 400px;
     width: 700px;
@@ -11,6 +13,7 @@ export const Container = styled.div`
   }
 
   .image-container {
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,9 +25,11 @@ export const Container = styled.div`
     box-shadow: 10px 15px 15px 6px #020024;
     border-radius: 50%;
     font-size: 15vh;
+    z-index: 9999;
 
     img {
       border-radius: 50%;
+      z-index: 999;
      
     }
     div {
@@ -34,4 +39,30 @@ export const Container = styled.div`
       }
     }
   }
+
+  .progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: black;
+  transform-origin: 0%;
+  height: 1.8rem;
+  margin-top: 0.7rem;
+}
+
+`
+
+export const ProgressBar = styled.div`
+position: relative;
+
+.pochita {
+
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: -3rem;
+  top: -1rem;
+}
 `
