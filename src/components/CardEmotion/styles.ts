@@ -9,12 +9,20 @@ export const Container = styled.div`
     background-color: #980a0a;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 999;
   }
+h2 {
+  font-size: 1.7rem;
+}
 
 
-
-  .card h2 {
-   color: #ffbcbc
+  .card  {
+    h2 {
+        color: #ffbcbc
+        
+    }
+ 
+   
   }
 
   .card p {
