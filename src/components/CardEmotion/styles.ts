@@ -14,13 +14,16 @@ export const Container = styled.div`
 h2 {
   font-size: 1.7rem;
   margin-top: 1rem;
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
       font-size: 1rem;
     }
 }
 p {
   margin-top: 1rem;
-  @media(max-width: 400px) {
+  @media(max-width: 660px) {
+      font-size: 0.8rem;
+    }
+  @media(max-width: 500px) {
       font-size: 12px;
     }
 }

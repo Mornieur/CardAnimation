@@ -11,10 +11,16 @@ export const Container = styled.div`
     box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     background-color: #7a7a7a;
-
-    @media(max-width: 400px) {
+@media(max-width: 810px) {
+      width: 480px;
+    }
+@media(max-width: 660px) {
+      width: 380px;
+    }
+    @media(max-width: 500px) {
       width: 280px;
     }
+    
   }
 
   .image-container {
@@ -68,7 +74,7 @@ position: relative;
   width: 5rem;
   height: 5rem;
   right: -5.1rem;
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
       width: 2.2rem;
       
       height: 2.2rem;
