@@ -13,6 +13,16 @@ export const Container = styled.div`
   }
 h2 {
   font-size: 1.7rem;
+  margin-top: 1rem;
+  @media(max-width: 400px) {
+      font-size: 1rem;
+    }
+}
+p {
+  margin-top: 1rem;
+  @media(max-width: 400px) {
+      font-size: 12px;
+    }
 }
 
 
@@ -26,6 +36,10 @@ h2 {
   }
 
   .card p {
+    
+    max-width:640px;
+    max-height: 10px;
+
     
   }
 `;
