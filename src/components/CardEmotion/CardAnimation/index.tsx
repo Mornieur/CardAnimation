@@ -1,7 +1,5 @@
 import { motion, useScroll, useSpring, Variants } from 'framer-motion';
-import Image from 'next/image';
 import {PhotoComp} from "../../PhotoComp"
-import pochita from "../../../../public/assets/Gifs/pochita.csm-two.gif"
 import * as S from "./styles"
 
 export const CardAnimation = ({ gif, image, h2, p, id  }: any) => {
@@ -40,9 +38,11 @@ export const CardAnimation = ({ gif, image, h2, p, id  }: any) => {
        
         <motion.div className="progress-bar" style={{ scaleX }} >
           <div className='pochita'>
-        <PhotoComp url={gif} text="" />
         </div>
         </motion.div>
+        <div className='pochitaResponsive'>
+        <PhotoComp url={gif} text="" />
+        </div>
         
        
       
