@@ -1,10 +1,11 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
-import * as S from "../styles/styles"
+import * as S from '../styles/styles';
 import styled from 'styled-components';
 import { CardEmotion } from '../components/CardEmotion';
+import { Header } from '../components/Header';
 
-const CircleIndicator: NextPage = () => {
+const Home: NextPage = () => {
   const Layout = styled.div`
     width: 100%;
     overflow-x: hidden;
@@ -12,8 +13,6 @@ const CircleIndicator: NextPage = () => {
   `;
   return (
     <>
-      
-      
       <Layout>
         <Head>
           <title>CardAnimation | ConsultPage</title>
@@ -21,6 +20,7 @@ const CircleIndicator: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <S.Container>
+          <Header />
           <CardEmotion />
         </S.Container>
       </Layout>
@@ -28,4 +28,4 @@ const CircleIndicator: NextPage = () => {
   );
 };
 
-export default CircleIndicator;
+export default Home;
