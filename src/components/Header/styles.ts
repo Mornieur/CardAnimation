@@ -6,6 +6,7 @@ export const Container = styled.div`
   background-color: #000000;
   position: sticky;
   top: 0;
+  padding: 0.5rem;
 `;
 
 export const HeaderItems = styled.div`
@@ -17,7 +18,7 @@ export const HeaderItems = styled.div`
 
   .items {
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
     display: flex;
     position: absolute;
     bottom: 0;
@@ -26,8 +27,7 @@ export const HeaderItems = styled.div`
   .pagesSection {
     width: 50%;
     display: flex;
-    justify-content: space-around;
-    padding: 1rem;
+    justify-content: space-evenly;
 
     a {
       width: 200px;
@@ -35,6 +35,12 @@ export const HeaderItems = styled.div`
       border: none;
       color: #fff;
       font-weight: 600;
+      display: flex;
+      justify-content: center;
+
+      :hover {
+        border-bottom: 3px solid #fff;
+      }
     }
   }
 
