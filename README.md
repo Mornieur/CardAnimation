@@ -7,7 +7,6 @@ Para usar a animação de cartão em seu projeto, basta seguir os seguintes pass
 
     Baixe os arquivos do repositório ou clone-o usando o seguinte comando:
 
-bash
 
 git clone https://github.com/Mornieur/CardAnimation.git
 
@@ -17,13 +16,11 @@ git clone https://github.com/Mornieur/CardAnimation.git
 
     Inclua o arquivo script.js no final do seu documento HTML e configure-o de acordo com as suas necessidades.
 
-html
 
 <script src="caminho/para/script.js"></script>
 
     Adicione o estilo styles.css ao seu projeto e configure-o de acordo com as suas necessidades.
 
-html
 
 <link rel="stylesheet" href="caminho/para/styles.css">
 
@@ -31,7 +28,6 @@ Exemplo
 
 Confira um exemplo de uso da animação de cartão em HTML:
 
-html
 
 <div class="card">
   <div class="card__face card__face--front">
