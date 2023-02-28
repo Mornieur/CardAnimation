@@ -5,33 +5,29 @@ interface ButtonIsOpen {
 }
 
 export const Container = styled.div`
-  max-width: 1000px;
+  max-width: 1300px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 2rem;
+  gap: 1rem;
+
+  @media (max-width: 999px) {
+    flex-direction: column;
+  }
   section {
-    background-color: blue;
     width: 300px;
     height: 400px;
   }
   .card {
     height: 400px;
-    width: 500px;
-    /* width: 100%; */
+    max-width: 500px;
+    width: 100%;
     border-radius: 13px;
     box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     background-color: #7a7a7a;
-    @media (max-width: 810px) {
-      width: 480px;
-    }
-    @media (max-width: 660px) {
-      width: 380px;
-    }
-    @media (max-width: 550px) {
-      width: 280px;
-    }
   }
 
   .image-container {
@@ -91,6 +87,10 @@ export const ProgressBar = styled.div`
 `;
 
 export const DropDown = styled.div<ButtonIsOpen>`
+  max-width: 31rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   .box {
     width: 150px;
     height: 150px;
@@ -102,9 +102,10 @@ export const DropDown = styled.div<ButtonIsOpen>`
   .menu {
     box-shadow: ${({ boxShadow }) =>
       boxShadow ? '20px 40px 33px rgba(0, 0, 0, 0.3)' : 'none'};
-    width: 300px;
-    width: 300px;
+    max-width: 31rem;
+    width: 100%;
     height: 400px;
+    margin-top: 1rem;
   }
 
   ul {
