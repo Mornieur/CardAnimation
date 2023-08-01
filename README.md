@@ -1,7 +1,5 @@
 # CardAnimation - Chainsaw Man Anime Information
 
-![CardAnimation Demo](https://user-images.githubusercontent.com/12345678/your-demo-image.png)
-
 Este projeto é uma aplicação web que utiliza o Framer Motion para criar animações em componentes que contêm informações sobre o anime "Chainsaw Man". Ele permite renderizar informações dos personagens do anime em componentes animados, proporcionando uma experiência interativa e atraente para os usuários.
 
 ## Tecnologias Utilizadas
@@ -23,4 +21,16 @@ Para executar localmente o projeto, siga os passos abaixo:
 2. Clone este repositório em sua máquina local.
 3. Acesse a pasta do projeto via terminal.
 4. Instale as dependências do projeto com o seguinte comando:
+``` npm install ```
+5. Após a instalação, execute o projeto com o comando:
+``` npm run dev ```
+6. Acesse a aplicação em seu navegador através do endereço [http://localhost:3000](http://localhost:3000).
+
+## Funcionalidades Principais
+
+- Exibição de informações detalhadas sobre os personagens do anime "Chainsaw Man".
+- Animações suaves e responsivas que proporcionam uma experiência agradável aos usuários.
+- Interface intuitiva e de fácil utilização.
+
+
 
