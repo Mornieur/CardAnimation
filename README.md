@@ -1,44 +1,26 @@
-## CardAnimation
+# CardAnimation - Chainsaw Man Anime Information
 
-Este é um repositório contendo uma animação de cartão feita em HTML, CSS e JavaScript. A animação exibe um cartão que se expande ao passar o mouse sobre ele, revelando mais informações.
-Como usar
+![CardAnimation Demo](https://user-images.githubusercontent.com/12345678/your-demo-image.png)
 
-Para usar a animação de cartão em seu projeto, basta seguir os seguintes passos:
+Este projeto é uma aplicação web que utiliza o Framer Motion para criar animações em componentes que contêm informações sobre o anime "Chainsaw Man". Ele permite renderizar informações dos personagens do anime em componentes animados, proporcionando uma experiência interativa e atraente para os usuários.
 
-    Baixe os arquivos do repositório ou clone-o usando o seguinte comando:
+## Tecnologias Utilizadas
 
+- Next.js
+- TypeScript
+- Styled Components
+- Framer Motion
 
-git clone https://github.com/Mornieur/CardAnimation.git
+## Visão Geral
 
-    Copie os arquivos index.html, styles.css e script.js para o seu projeto.
+O projeto "CardAnimation" é uma demonstração do poder das tecnologias Next.js, TypeScript, Styled Components e Framer Motion ao criar animações fluidas e responsivas para exibir informações sobre personagens do anime "Chainsaw Man". A aplicação fornece uma interface amigável e atraente que apresenta as informações de forma interativa.
 
-    Adicione as classes CSS card e card__face às suas divs, conforme exemplificado no arquivo index.html.
+## Instalação
 
-    Inclua o arquivo script.js no final do seu documento HTML e configure-o de acordo com as suas necessidades.
+Para executar localmente o projeto, siga os passos abaixo:
 
+1. Certifique-se de ter o Node.js instalado em seu sistema.
+2. Clone este repositório em sua máquina local.
+3. Acesse a pasta do projeto via terminal.
+4. Instale as dependências do projeto com o seguinte comando:
 
-<script src="caminho/para/script.js"></script>
-
-    Adicione o estilo styles.css ao seu projeto e configure-o de acordo com as suas necessidades.
-
-
-<link rel="stylesheet" href="caminho/para/styles.css">
-
-Exemplo
-
-Confira um exemplo de uso da animação de cartão em HTML:
-
-
-<div class="card">
-  <div class="card__face card__face--front">
-    <!-- Conteúdo da frente do cartão -->
-  </div>
-  <div class="card__face card__face--back">
-    <!-- Conteúdo do verso do cartão -->
-  </div>
-</div>
-
-
-Créditos
-
-Este repositório foi criado por Mornieur.
