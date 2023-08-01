@@ -1,4 +1,4 @@
-CardAnimation
+## CardAnimation
 
 Este é um repositório contendo uma animação de cartão feita em HTML, CSS e JavaScript. A animação exibe um cartão que se expande ao passar o mouse sobre ele, revelando mais informações.
 Como usar
