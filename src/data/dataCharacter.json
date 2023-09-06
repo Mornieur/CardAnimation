@@ -1,44 +1,86 @@
 [
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 1,
+
     "image": "/assets/Characters/denji.jpg",
     "h2": "Denji",
-    "p": "Ele resume seus sonhos em se alimentar diariamente, ter um lugar digno para dormir e ter uma namorada bonita. Porém, quando descobrimos o passado sofrido de Denji, entendemos que até mesmo o básico como “ter um café da manhã todo dia” é algo muito precioso para ele e realmente faria feliz."
+    "p": "Ele resume seus sonhos em se alimentar diariamente, ter um lugar digno para dormir e ter uma namorada bonita. Porém, quando descobrimos o passado sofrido de Denji, entendemos que até mesmo o básico como “ter um café da manhã todo dia” é algo muito precioso para ele e realmente faria feliz.",
+    "name": "Denji",
+    "age": 17,
+    "height": "1,70 m",
+    "abilities": "Regeneração, Força sobre-humana, Controle de motosserras",
+    "transformation": "Chainsaw Man"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 2,
+
     "image": "/assets/Characters/power.jpg",
     "h2": "Power",
-    "p": "Power é uma Demônio do Sangue que, assim como Denji, foi convocada para a Segurança Pública para não ser morta. Diferente de Aki e Makima, ela é bastante infantil e ao conviver com o protagonista acaba despertando esse lado no garoto também."
+    "p": "Power é uma Demônio do Sangue que, assim como Denji, foi convocada para a Segurança Pública para não ser morta. Diferente de Aki e Makima, ela é bastante infantil e ao conviver com o protagonista acaba despertando esse lado no garoto também.",
+    "name": "Power",
+    "age": 16,
+    "height": "1,50 m",
+    "abilities": "Regeneração, Força sobre-humana, Controle de sangue",
+    "transformation": "Demônio do Sangue"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 3,
+
     "image": "/assets/Characters/makima.jpg",
     "h2": "Makima",
-    "p": "Makima é uma mulher com um ar misterioso e aparenta estar escondendo algo desde sua primeira aparição. Ao oferecer o emprego de caçador para Denji, ela exige que ele seja seu animal de estimação e o garoto aceita tal condição."
+    "p": "Makima é uma mulher com um ar misterioso e aparenta estar escondendo algo desde sua primeira aparição. Ao oferecer o emprego de caçador para Denji, ela exige que ele seja seu animal de estimação e o garoto aceita tal condição.",
+    "name": "Makima",
+    "age": 24,
+    "height": "1,75 m",
+    "abilities": "Controle mental, Invocação de demônios",
+    "transformation": "Demônio do Diabo"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 4,
+
     "image": "/assets/Characters/aki-Hayakawa.jpg",
     "h2": "Aki Hayakawa",
-    "p": "Aki é um Caçador da Segurança Pública que inicialmente foi designado por Makima para tomar conta e orientar Denji em seu novo trabalho. Aki faz parte do Esquadrão Especial da Quarta Divisão de Makima e conseguiu esse cargo por seu excelente desempenho no trabalho, tendo um contrato com o Demônio Raposa."
+    "p": "Aki é um Caçador da Segurança Pública que inicialmente foi designado por Makima para tomar conta e orientar Denji em seu novo trabalho. Aki faz parte do Esquadrão Especial da Quarta Divisão de Makima e conseguiu esse cargo por seu excelente desempenho no trabalho, tendo um contrato com o Demônio Raposa.",
+    "name": "Aki Hayakawa",
+    "age": 19,
+    "height": "1,75 m",
+    "abilities": "Controle de fogo, Criação de explosivos",
+    "transformation": "Demônio Raposa"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 5,
+
     "image": "/assets/Characters/himeno.jpg",
     "h2": "Himeno",
-    "p": "Outra integrante do Setor Público, ela foi a primeira parceira de Aki. Junto com o garoto, compartilhou alguns momentos e ambos criaram uma relação de amizade e confiança. Himeno utiliza um tapa olho em seu olho direito, devido ao seu pacto com o Demônio Fantasma que, em troca de seu olho permite que a caçadora use um de seus braços em qualquer lugar."
+    "p": "Outra integrante do Setor Público, ela foi a primeira parceira de Aki. Junto com o garoto, compartilhou alguns momentos e ambos criaram uma relação de amizade e confiança. Himeno utiliza um tapa olho em seu olho direito, devido ao seu pacto com o Demônio Fantasma que, em troca de seu olho permite que a caçadora use um de seus braços em qualquer lugar.",
+    "name": "Himeno",
+    "age": 20,
+    "height": "1,70 m",
+    "abilities": "Controle de fantasmas, Invocação de um braço fantasma",
+    "transformation": "Demônio Fantasma"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 6,
+
     "image": "/assets/Characters/kishibe.jpg",
     "h2": "Kishibe",
-    "p": "Kishibe é o Caçador de Demônios mais forte da organização. Ele já tem mais idade que os outros e possui algumas cicatrizes em seu rosto. Em um certo momento ele acaba treinando Denji e Power, fazendo com que os dois tentassem acertá-lo, mas como é bastante habilidoso, a dupla percebe que é uma tarefa impossível."
+    "p": "Kishibe é o Caçador de Demônios mais forte da organização. Ele já tem mais idade que os outros e possui algumas cicatrizes em seu rosto. Em um certo momento ele acaba treinando Denji e Power, fazendo com que os dois tentassem acertá-lo, mas como é bastante habilidoso, a dupla percebe que é uma tarefa impossível.",
+    "name": "Kishibe",
+    "age": 35,
+    "height": "1,80 m",
+    "abilities": "Controle da eletricidade, Criação de raios",
+    "transformation": "Demônio da Raiva"
   },
   {
-    "gif": "/assets/Gifs/pochita-csm-two.gif",
+    "id": 7,
+
     "image": "/assets/Characters/kobeni.jpg",
     "h2": "Kobeni Higashiyama",
-    "p": "Não se sabe com qual demônio Kobeni tem um contrato, mas ela entrou para a Segurança Pública em um Esquadrão Experimental da Makima porque era muito pobre e gostaria de ajudar sua família. Kobeni frequentemente demonstra ser bastante medrosa e covarde, sempre se escondendo ou quase entrando em pânico quando sua vida está em risco. Apesar disso, ela se mostrou bastante habilidosa, apesar da falta de autoconfiança."
+    "p": "Não se sabe com qual demônio Kobeni tem um contrato, mas ela entrou para a Segurança Pública em um Esquadrão Experimental da Makima porque era muito pobre e gostaria de ajudar sua família. Kobeni frequentemente demonstra ser bastante medrosa e covarde, sempre se escondendo ou quase entrando em pânico quando sua vida está em risco.",
+    "name": "Kobeni Higashiyama",
+    "age": 22,
+    "height": "1,60 m",
+    "abilities": "Controle de motosserras, Criação de barreiras",
+    "transformation": "Demônio?"
   }
 ]
