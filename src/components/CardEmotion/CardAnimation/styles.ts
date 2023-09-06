@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
-interface ButtonIsOpen {
-  boxShadow: any;
-}
-
 export const Container = styled.div`
-  max-width: 1300px;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -16,16 +10,17 @@ export const Container = styled.div`
   @media (max-width: 999px) {
     flex-direction: column;
   }
+
   section {
     width: 300px;
     height: 400px;
   }
+
   .card {
     height: 400px;
     max-width: 500px;
     width: 100%;
     border-radius: 13px;
-    box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     background-color: #7a7a7a;
   }
@@ -83,90 +78,5 @@ export const ProgressBar = styled.div`
       right: -2.2rem;
       right: -2.2rem;
     }
-  }
-`;
-
-export const DropDown = styled.div<ButtonIsOpen>`
-  max-width: 31rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  .box {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: white;
-    margin: 0;
-  }
-
-  .menu {
-    box-shadow: ${({ boxShadow }) =>
-      boxShadow ? '20px 40px 33px rgba(0, 0, 0, 0.3)' : 'none'};
-    max-width: 31rem;
-    width: 100%;
-    height: 400px;
-    margin-top: 1rem;
-  }
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background: #7a7a7a;
-    height: 350px;
-    /* box-shadow: 20px 40px 33px; */
-  }
-
-  li {
-    color: #fff;
-    display: block;
-    display: flex;
-    overflow-y: scroll;
-
-    .titleName {
-      padding: 5px;
-    }
-    .name {
-      padding: 5px;
-    }
-  }
-
-  ul,
-  li {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-  }
-
-  button {
-    -webkit-appearance: button;
-    background: #7a7a7a;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  button path {
-    fill: #fff;
-  }
-
-  input {
-    accent-color: white;
-  }
-
-  label {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
   }
 `;

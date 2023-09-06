@@ -1,17 +1,20 @@
-import  dataCharacter from '../../data/dataCharacter.json';
-
+import dataCharacter from '../../data/dataCharacter.json';
 import { FC } from 'react';
 import * as S from './styles';
 import { CardAnimation } from './CardAnimation';
+import { Dropdown } from './Dropdown';
 
 export const CardEmotion: FC = () => {
   return (
     <S.Container>
-      {dataCharacter.map((item, index) => (
-        <div className="card-wrapper" key={index}>
-          <CardAnimation image={item.image} h2={item.h2} p={item.p} gif={item.gif} />
-        </div>
-      ))}
+      <S.ProfileContainer>
+        {dataCharacter.map((item, index) => (
+          <S.CardProfile className="test" key={index}>
+            <CardAnimation {...item} />
+            <Dropdown {...item} index={index} />
+          </S.CardProfile>
+        ))}
+      </S.ProfileContainer>
     </S.Container>
   );
 };
