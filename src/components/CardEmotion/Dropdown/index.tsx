@@ -1,5 +1,5 @@
 import * as S from './styles';
-import { motion, useScroll, useSpring, Variants } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { useState } from 'react';
 
 interface DropdownProps {
@@ -47,7 +47,7 @@ export const Dropdown = ({
           whileTap={{ scale: 0.97 }}
           onClick={() => handleToggleDropdown(index)}
         >
-          Sobre
+          About
           <motion.div
             variants={{
               open: { rotate: 180 },
@@ -92,23 +92,23 @@ export const Dropdown = ({
           }}
         >
           <motion.li variants={itemVariants}>
-            <span className="titleName">Nome:</span>
+            <span className="titleName">Name:</span>
             <span className="name">{name}</span>
           </motion.li>
           <motion.li variants={itemVariants}>
-            <span className="titleName">Idade:</span>
-            <span className="name">{age} anos</span>
+            <span className="titleName">Age:</span>
+            <span className="name">{age} years old</span>
           </motion.li>
           <motion.li variants={itemVariants}>
-            <span className="titleName">Altura:</span>
+            <span className="titleName">Height:</span>
             <span className="name">{height}</span>
           </motion.li>
           <motion.li variants={itemVariants}>
-            <span className="titleName">Habilidades:</span>
+            <span className="titleName">Abilities:</span>
             <span className="name">{abilities}</span>
           </motion.li>
           <motion.li variants={itemVariants}>
-            <span className="titleName">Tranformação:</span>
+            <span className="titleName">Transformation:</span>
             <span className="name">{transformation}</span>
           </motion.li>
         </motion.ul>
