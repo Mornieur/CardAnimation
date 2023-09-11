@@ -9,32 +9,39 @@
   <img src="./public/assets/card-animation.png" alt='project image' width='600'  />
 </div>
 
-## Tecnologias Utilizadas
+## Tecnologies
 
 - Next.js
 - TypeScript
 - Styled Components
 - Framer Motion
 
-## Visão Geral
+## Overview
 
-O projeto "CardAnimation" é uma demonstração do poder das tecnologias Next.js, TypeScript, Styled Components e Framer Motion ao criar animações fluidas e responsivas para exibir informações sobre personagens do anime "Chainsaw Man". A aplicação fornece uma interface amigável e atraente que apresenta as informações de forma interativa.
+The "CardAnimation" project is a demonstration of the power of Next.js, TypeScript, Styled Components, and Framer Motion technologies in creating smooth and responsive animations to display information about characters from the anime "Chainsaw Man." The application provides a user-friendly and visually appealing interface that presents the information interactively.
 
-## Instalação
+## Installation
 
-Para executar localmente o projeto, siga os passos abaixo:
+To run the project locally, follow the steps below:
 
-1. Certifique-se de ter o Node.js instalado em seu sistema.
-2. Clone este repositório em sua máquina local.
-3. Acesse a pasta do projeto via terminal.
-4. Instale as dependências do projeto com o seguinte comando:
-   `npm install`
-5. Após a instalação, execute o projeto com o comando:
-   `npm run dev`
-6. Acesse a aplicação em seu navegador através do endereço [http://localhost:3000](http://localhost:3000).
+1. Make sure you have Node.js installed on your system.
 
-## Funcionalidades Principais
+2. Clone this repository to your local machine.
 
-- Exibição de informações detalhadas sobre os personagens do anime "Chainsaw Man".
-- Animações suaves e responsivas que proporcionam uma experiência agradável aos usuários.
-- Interface intuitiva e de fácil utilização.
+3. Access the project folder via the terminal.
+
+4. Install project dependencies with the following command:
+
+   `yarn install`
+
+5. After the installation, run the project with the command:
+
+   `yarn run dev`
+
+6. Access the application in your browser through the following address http://localhost:3000.
+
+## Key Features
+
+- Display detailed information about characters from the anime "Chainsaw Man."
+- Smooth and responsive animations that provide an enjoyable user experience.
+- Intuitive and easy-to-use interface.
