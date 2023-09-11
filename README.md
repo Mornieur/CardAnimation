@@ -6,7 +6,7 @@
 
 <div align='center'>
 
-  <img src="./public/assets/card-animation.png" alt='project image' width='600'  />
+  <img src="./public/assets/chainsaw-man.png" alt='project image' width='600'  />
 </div>
 
 ## Tecnologies
